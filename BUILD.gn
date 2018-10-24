@@ -1,0 +1,8 @@
+executable("hello_world") {
+  sources = [
+    "src/hello_world.cc",
+  ]
+  deps = [
+    "//v8:v8"
+  ]
+}
