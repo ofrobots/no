@@ -1,8 +1,9 @@
-executable("hello_world") {
+executable("no") {
   sources = [
-    "src/hello_world.cc",
+    "src/main.cc",
   ]
   deps = [
-    "//v8:v8"
+    "//v8:v8",
+    "//v8:v8_libplatform"
   ]
 }
