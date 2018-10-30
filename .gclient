@@ -7,4 +7,8 @@ solutions = [
     },
     "custom_vars": {},
   },
+  { "name"        : "libuv",
+    "url"         : "https://github.com/libuv/libuv@v1.23.2",
+    "managed"     : True,
+  },
 ]

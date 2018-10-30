@@ -1,3 +1,4 @@
 /out
 /v8
+/libuv
 .gclient_entries

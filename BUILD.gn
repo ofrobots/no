@@ -3,6 +3,7 @@ executable("no") {
     "src/main.cc",
   ]
   deps = [
+    "//libuv:libuv",
     "//v8:v8",
     "//v8:v8_libplatform"
   ]
